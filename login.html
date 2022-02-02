@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MovieKrub</title>
+    <link rel="icon" type="image/png" href="favicon.png"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/regis.css">
+
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">  
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <img src="favicon.png" width="50px" height="50px" />
+              <h1 class="nameMovie">MovieKrub</h1>
+              <ul class="navbar-nav ml-auto">
+                </button>
+                <li class="home"><a href="home.html" class="nav-link font-sans-serif"> Home </a></li>
+                <li class="login"><a href="login.html" class="nav-link font-sans-serif"> Login </a></li>
+                <li class="search"><a href="search.html" class="nav-link font-sans-serif"> Search </a></li>
+                <li class="result"><a href="result.html" class="nav-link font-sans-serif"> Result</a></li>
+                <li class="aboutus"><a href="aboutus.html" class="nav-link font-sans-serif"> About us</a></li>
+                </ul>
+            </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="col-md-6 mx-auto p-0">
+            <div class="card">
+                <div class="login-box">
+                    
+                    <div class="login-snip"> 
+                        <h2>Welcome to MovieKrub!</h2>
+                        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Login</label> <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                        <div class="login-space">
+                            <div class="login">
+                                <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Enter your username"> </div>
+                                <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Enter your password"> </div>
+                                <div class="group"> <input id="check" type="checkbox" class="check" checked> <label for="check"><span class="icon"></span> Keep me Signed in</label> </div>
+                                <div class="group"> <input type="submit" class="button" value="Sign In"> </div>
+                                <div class="hr"></div>
+                                <div class="foot"> <a href="#">Forgot Password?</a> </div>
+                            </div>
+                            <div class="sign-up-form">
+                                <div class="group"> <label for="user" class="label">Username</label> <input id="user" type="text" class="input" placeholder="Create your Username"> </div>
+                                <div class="group"> <label for="pass" class="label">Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Create your password"> </div>
+                                <div class="group"> <label for="pass" class="label">Repeat Password</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Repeat your password"> </div>
+                                <div class="group"> <label for="pass" class="label">Email Address</label> <input id="pass" type="text" class="input" placeholder="Enter your email address"> </div>
+                                <div class="group"> <input type="submit" class="button" value="Sign Up"> </div>
+                                <div class="hr"></div>
+                                <div class="foot"> <label for="tab-1">Already Member?</label> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</head>
+<footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; MovieKrub 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+</html>
